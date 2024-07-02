@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>網站設計</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="section" id="section-a">
+        <div class="background">
+            <img src="BIG.png" alt="Background Image" class="background-image">
+            <div class="building" id="building-b"><img src="GG2.png"></div>
+            <div class="building" id="building-c"><img src="GG1.png"></div>
+			
+			
+            <div class="popup" id="popup-b">
+                <img src="TT1.png" alt="Title" class="popup-title">
+                <div class="popup-content">
+                    <p>值班員:杜聰明</p>
+					<p>值班員:政美麗</p>
+                    <button class="navigate-btn" onclick="scrollToSection('#section-b')">進入</button>
+                </div>
+            </div>
+			
+			
+			
+            <div class="popup" id="popup-c">
+                <img src="TT2.png" alt="Title" class="popup-title">
+                <div class="popup-content">
+                    <p>大法師:惠念舒</p>
+					<p>戰士:惠韻彤</p>
+                    <button class="navigate-btn" onclick="scrollToSection('#section-c')">進入</button>
+                </div>
+            </div>
+			
+			
+			
+			
+        </div>
+    </div>
+
+    <div class="section" id="section-b">
+		
+        <div class="left-panel">
+            <img src="B1.png" alt="Image 1" class="top-image">
+			
+		  <div class="bottom-image-wrapper">
+            <img src="B3.png" alt="Image 2" class="bottom-image">
+			 <div class="hover-box">
+                    <p>未滿足升級條件</p>
+				 
+				
+		</div>		
+		</div>		
+        </div>
+		
+      <div class="right-panel">
+            <div class="form">
+                <div class="form-title">國語作業</div>
+                <table class="table">
+                    <tr>
+                        <th>號碼</th>
+                        <th>已繳交</th>
+                        <th>未繳交</th>
+                        <th>未定正</th>
+                    </tr>
+                    <!-- 重複11次 -->
+                    
+					<!-- 實驗區 -->
+					<tr>
+                        <td>1</td>
+                        <td><input type="radio" name="purchase1" value="bought"></td>
+                        <td><input type="radio" name="purchase1" value="inquiring"></td>
+                        <td><input type="radio" name="purchase1" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>2</td>
+                        <td><input type="radio" name="purchase2" value="bought"></td>
+                        <td><input type="radio" name="purchase2" value="inquiring"></td>
+                        <td><input type="radio" name="purchase2" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>3</td>
+                        <td><input type="radio" name="purchase3" value="bought"></td>
+                        <td><input type="radio" name="purchase3" value="inquiring"></td>
+                        <td><input type="radio" name="purchase3" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>4</td>
+                        <td><input type="radio" name="purchase4" value="bought"></td>
+                        <td><input type="radio" name="purchase4" value="inquiring"></td>
+                        <td><input type="radio" name="purchase4" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>5</td>
+                        <td><input type="radio" name="purchase5" value="bought"></td>
+                        <td><input type="radio" name="purchase5" value="inquiring"></td>
+                        <td><input type="radio" name="purchase5" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>6</td>
+                        <td><input type="radio" name="purchase6" value="bought"></td>
+                        <td><input type="radio" name="purchase6" value="inquiring"></td>
+                        <td><input type="radio" name="purchase6" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>7</td>
+                        <td><input type="radio" name="purchase7" value="bought"></td>
+                        <td><input type="radio" name="purchase7" value="inquiring"></td>
+                        <td><input type="radio" name="purchase7" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>8</td>
+                        <td><input type="radio" name="purchase8" value="bought"></td>
+                        <td><input type="radio" name="purchase8" value="inquiring"></td>
+                        <td><input type="radio" name="purchase8" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>9</td>
+                        <td><input type="radio" name="purchase9" value="bought"></td>
+                        <td><input type="radio" name="purchase9" value="inquiring"></td>
+                        <td><input type="radio" name="purchase9" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>10</td>
+                        <td><input type="radio" name="purchase10" value="bought"></td>
+                        <td><input type="radio" name="purchase10" value="inquiring"></td>
+                        <td><input type="radio" name="purchase10" value="not-bought"></td>
+                    </tr>
+					
+                    <!-- 實驗區 -->
+                </table>
+            </div>
+            <div class="form">
+                <div class="form-title">國語作業</div>
+                <table class="table">
+                    <tr>
+                        <th>號碼</th>
+                        <th>已繳交</th>
+                        <th>未繳交</th>
+                        <th>未定正</th>
+                    </tr>
+                    <!-- 重複11次 -->
+                    <tr>
+                        <td>11</td>
+                        <td><input type="radio" name="purchase11" value="bought"></td>
+                        <td><input type="radio" name="purchase11" value="inquiring"></td>
+                        <td><input type="radio" name="purchase11" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>12</td>
+                        <td><input type="radio" name="purchase12" value="bought"></td>
+                        <td><input type="radio" name="purchase12" value="inquiring"></td>
+                        <td><input type="radio" name="purchase12" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>13</td>
+                        <td><input type="radio" name="purchase13" value="bought"></td>
+                        <td><input type="radio" name="purchase13" value="inquiring"></td>
+                        <td><input type="radio" name="purchase13" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>14</td>
+                        <td><input type="radio" name="purchase14" value="bought"></td>
+                        <td><input type="radio" name="purchase14" value="inquiring"></td>
+                        <td><input type="radio" name="purchase14" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>15</td>
+                        <td><input type="radio" name="purchase15" value="bought"></td>
+                        <td><input type="radio" name="purchase15" value="inquiring"></td>
+                        <td><input type="radio" name="purchase15" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>16</td>
+                        <td><input type="radio" name="purchase16" value="bought"></td>
+                        <td><input type="radio" name="purchase16" value="inquiring"></td>
+                        <td><input type="radio" name="purchase16" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>17</td>
+                        <td><input type="radio" name="purchase17" value="bought"></td>
+                        <td><input type="radio" name="purchase17" value="inquiring"></td>
+                        <td><input type="radio" name="purchase17" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>18</td>
+                        <td><input type="radio" name="purchase18" value="bought"></td>
+                        <td><input type="radio" name="purchase18" value="inquiring"></td>
+                        <td><input type="radio" name="purchase18" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>19</td>
+                        <td><input type="radio" name="purchase19" value="bought"></td>
+                        <td><input type="radio" name="purchase19" value="inquiring"></td>
+                        <td><input type="radio" name="purchase19" value="not-bought"></td>
+                    </tr>
+					
+					<tr>
+                        <td>20</td>
+                        <td><input type="radio" name="purchase20" value="bought"></td>
+                        <td><input type="radio" name="purchase20" value="inquiring"></td>
+                        <td><input type="radio" name="purchase20" value="not-bought"></td>
+                    </tr>
+                    <!-- 重複結束 -->
+                </table>
+            </div>
+        </div>
+    </div>
+
+	
+	
+	
+	
+	
+	
+	
+     <div class="section" id="section-c">
+        <img src="C1.png" alt="冒險者大廳" class="header-image">
+        <div class="image-gallery">
+            <!-- 圖片空間 -->
+            <img src="CC2.png" class="gallery-image">
+            <img src="CC3.png" class="gallery-image">
+            <img src="CC5.png" class="gallery-image">
+            <img src="CC1.png" class="gallery-image">
+            <img src="CC4.png" class="gallery-image">
+        </div>
+        <div class="pagination">
+            <button class="pagination-btn">上一頁</button>
+            <button class="pagination-btn">下一頁</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
